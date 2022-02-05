@@ -56,7 +56,7 @@ public class RunIntake extends CommandBase {
     // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
-        m_intakeMotor.runIntakeMotor(m_intake);
+        m_intake.runIntakeMotor(Constants.intakeSpeed);
     }
 
     // Called once the command ends or is interrupted.
