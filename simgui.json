@@ -39,6 +39,18 @@
       "Drive": {
         "open": true
       },
+      "Intake": {
+        "open": true
+      },
+      "open": true
+    },
+    "SmartDashboard": {
+      "RunIntake": {
+        "open": true
+      },
+      "intakeButton": {
+        "open": true
+      },
       "open": true
     }
   }

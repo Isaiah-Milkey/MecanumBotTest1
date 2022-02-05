@@ -31,7 +31,7 @@ public class Constants {
 
     //DRIVE ID'S
 
-    public static int frontLeftMotorID = 1;
+    public static int kfrontLeftMotorID = 1;
     public static int frontRightMotorID = 0;
     public static int backLeftMotorID = 2;
     public static int backRightMotorID = 3;
@@ -44,5 +44,8 @@ public class Constants {
 
     //CONSTANTS
     public static double intakeSpeed = 0.6;
+    public static int doubleSolenoidForward = 0;
+    public static int doubleSolenoidReverse = 1;
+
 }
 
