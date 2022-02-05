@@ -135,9 +135,9 @@ final JoystickButton intakeButton = new JoystickButton(joystickDriver, 2);
     //PROBLEM- Each new instanciation of command creates new motors- therefore duplicating the motors
     //SOLUTION- Create motors in Robot Container? or create a command that runs other commands
     intakeButton.whenHeld( new ParallelCommandGroup(
-        new ExtendRetractIntake(m_intake),
-       new WaitCommand(0.3),
-       new  RunIntake(m_intake) 
+         new ExtendRetractIntake(m_intake),
+        new WaitCommand(0.3),
+         new RunIntake(m_intake) 
       ));
 
       // intakeButton.whenHeld( new ParallelCommandGroup(

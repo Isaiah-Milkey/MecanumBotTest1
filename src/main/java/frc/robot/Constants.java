@@ -28,5 +28,21 @@ public class Constants {
     *   public static final int kRightMotor2Port = 3; 
     * }
     */ 
+
+    //DRIVE ID'S
+
+    public static int frontLeftMotorID = 1;
+    public static int frontRightMotorID = 0;
+    public static int backLeftMotorID = 2;
+    public static int backRightMotorID = 3;
+
+    //INTAKE ID'S
+    public static int intakeMotorID = 9;
+
+    //JOYSTICK ID'S
+    public static int joystickDriverID = 0;
+
+    //CONSTANTS
+    public static double intakeSpeed = 0.6;
 }
 
